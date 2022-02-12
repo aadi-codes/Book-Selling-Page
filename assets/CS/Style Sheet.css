@@ -1,0 +1,263 @@
+html {
+    margin: 15px;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.582);
+    background-image:url(E:\Aditya\Prog\WEB tests\Book Selling web page\assets\pictures\BGharry.jpg) ;
+    background-repeat: no-repeat;
+    background-position: auto fixed;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin: 1rem;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgba(100, 100, 100, 0.747);
+    background-color: rgba(255, 255, 255, 0.733);
+    border-top-left-radius: 49px;
+    border-bottom-right-radius: 60px;
+    padding: 14px;
+    margin: 2px 2px;
+    height: 34px;
+}
+main{
+    border: 10px solid rgba(255, 255, 255, 0.733);
+    border-radius: 60px;
+}
+#tbl {
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    border-width: 20px;
+}
+
+.img {
+    width: 270px;
+    height: 380px;
+    border: 5px solid rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    padding: 2px;
+    margin: 6px;
+}
+
+.img:hover {
+    border: 5px dotted rgba(97, 205, 238, 0.781);
+    width: 280px;
+    height: 390px;
+    margin: 1px;
+}
+
+#one {
+    width: 270px;
+    height: 380px;
+    border-top-left-radius: 60px;
+}
+
+#four {
+    width: 270px;
+    height: 380px;
+    border-top-right-radius: 60px;
+}
+
+#five {
+    width: 270px;
+    height: 380px;
+    border-bottom-left-radius: 60px;
+}
+
+#eight {
+    width: 270px;
+    height: 380px;
+    border-bottom-right-radius: 60px;
+}
+
+#one:hover {
+    border: 5px dotted rgba(97, 205, 238, 0.781);
+    width: 280px;
+    height: 390px;
+    margin: 1px;
+}
+
+#four:hover {
+    border: 5px dotted rgba(97, 205, 238, 0.781);
+    width: 280px;
+    height: 390px;
+    margin: 1px;
+}
+
+#five:hover {
+    border: 5px dotted rgba(97, 205, 238, 0.781);
+    width: 280px;
+    height: 390px;
+    margin: 1px;
+}
+
+#eight:hover {
+    border: 5px dotted rgb(69, 148, 172);
+    width: 280px;
+    height: 390px;
+    margin: 1px;
+}
+
+#head {
+    color: rgba(97, 205, 238, 0.877);
+    font-size: 40px;
+    margin-top: 45px;
+    margin-left: 45px;
+    font-style: italic;
+    font-family: Matura MT Script Capitals;
+    text-align: center;
+}
+
+#nav {
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+}
+
+li {
+    list-style-type: none;
+    margin: 0px 8px;
+    font-size: 32px;
+}
+
+a {
+    font-size: 32px;
+    font-weight: 800;
+    text-decoration: none;
+    color: #37393a;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(78, 139, 158);
+}
+
+/* responsive */
+
+@media only screen and (max-width:1370px) {
+
+    .img,
+    #one,
+    #four,
+    #five,
+    #eight {
+        width: 200px;
+        height: 275px;
+        border: 2px solid rgba(0, 0, 0, 0);
+        border-radius: 2px;
+        padding: 2px;
+        margin: 2px;
+    }
+
+    #one {
+        border-top-left-radius: 30px;
+    }
+
+    #four {
+        border-top-right-radius: 30px;
+    }
+
+    #five {
+        border-bottom-left-radius: 30px;
+    }
+
+    #eight {
+        border-bottom-right-radius: 30px;
+    }
+
+    .img:hover,
+    #one:hover,
+    #four:hover,
+    #five:hover,
+    #eight:hover {
+        border: 4px dotted rgba(97, 205, 238, 0.781);
+        width: 198px;
+        height: 273px;
+    }
+
+    #head {
+        font-size: 30px;
+    }
+
+    main {
+        border: 8px solid rgba(255, 255, 255, 0.733);
+    }
+}
+
+@media only screen and (max-width:1070px) {
+
+    .img,
+    #one,
+    #four,
+    #five,
+    #eight {
+        width: 162px;
+        height: 220px;
+        border: 2px solid rgba(0, 0, 0, 0);
+        border-radius: 2px;
+        padding: 2px;
+        margin: 2px;
+    }
+
+    #one {
+        border-top-left-radius: 20px;
+    }
+
+    #four {
+        border-top-right-radius: 20px;
+    }
+
+    #five {
+        border-bottom-left-radius: 20px;
+    }
+
+    #eight {
+        border-bottom-right-radius: 20px;
+    }
+
+    .img:hover,
+    #one:hover,
+    #four:hover,
+    #five:hover,
+    #eight:hover {
+        border: 4px dotted rgba(97, 205, 238, 0.781);
+        width: 160px;
+        height: 218px;
+    }
+
+    #head {
+        font-size: 22px;
+    }
+
+  main {
+        border: 5px solid rgba(255, 255, 255, 0.733);
+    }
+
+    .flexbox {
+        border-top-left-radius: 52px;
+        border-bottom-right-radius: 45px;
+        padding: 14px;
+        margin: 2px 2px;
+        width: 450px;
+        height: 25px;
+    }
+
+    .nav {
+        padding: 0px;
+        margin: 0px;
+        display: inline-block;
+    }
+
+    a {
+        font-size: 22px;
+        font-weight: 600;
+        text-decoration: none;
+        color: #37393a;
+    }
+}
+
+/* //responsive */
