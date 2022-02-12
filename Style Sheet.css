@@ -4,7 +4,7 @@ html {
 
 body {
     background-color: rgba(0, 0, 0, 0.582);
-    background-image:url(E:\Aditya\Prog\WEB tests\Book Selling web page\assets\pictures\BGharry.jpg) ;
+    background-image: url(./pictures/BGharry.jpg);
     background-repeat: no-repeat;
     background-position: auto fixed;
     background-attachment: fixed;
